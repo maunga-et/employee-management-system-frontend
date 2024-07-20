@@ -4,7 +4,6 @@ import useAuth from "../../hooks/useAuth";
 import {useEffect, useState} from "react";
 import {
 	getLeaveRequest,
-	listLeaveRequests,
 	listLeaveRequestsBySupervisorId,
 	updateLeaveRequest
 } from "../../requests/leave-requests";
